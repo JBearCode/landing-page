@@ -70,7 +70,7 @@ img {
 }
 
 #button-one {
-    background-color: blue;
+    background-color: #3882f6;
     border: none;
     padding: 12px 24px;
     color: white;
@@ -113,12 +113,49 @@ img {
 
 #quote {
     font-style: italic;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 200%;
 }
 
 #author {
-    font-size: 28px;
+    font-size: 22px;
     text-align: right;
     font-weight: bold;
+}
+
+.floating-block {
+    background-color: #3882f6;
+    margin: 50px 80px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    color: white;
+}
+
+#cool-button {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin-top: 14px;
+    border: 2px solid white;
+}
+
+footer {
+    color: white;
+    background-color: #1f2937;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    align-items: center;
+}
+
+footer p {
+    font-style: italic;
+    
 }
